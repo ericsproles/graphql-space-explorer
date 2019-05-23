@@ -61,6 +61,7 @@ const typeDefs = gql`
     id: ID!
     name: String
     type: String
+    temperature: String
   }
 
   type User {
